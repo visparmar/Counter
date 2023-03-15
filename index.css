@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    flex-wrap: wrap;
+}
+.github{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.github > i{
+font-size: 200px;
+}
+.github p{
+    font-size: 20px;
+    }
+    .insta p{
+        font-size: 20px;
+        }
+        .youtube p{
+            font-size: 20px;
+            }
+        
+        
+
+.insta > i{
+    font-size: 200px;
+}
+.youtube > i{
+    font-size: 200px;
+}
